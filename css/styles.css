@@ -11309,7 +11309,7 @@ body {
   margin-bottom: 0;
 }
 
-.container {
+.containing {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -11317,7 +11317,7 @@ body {
   margin: 20px;
 }
 
-.card {
+.carding {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -11325,7 +11325,7 @@ body {
   text-align: center;
   }
 
-.card img {
+.carding img {
   max-width: 100px;
    margin-bottom: 20px; 
 }
