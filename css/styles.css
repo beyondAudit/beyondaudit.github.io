@@ -11308,3 +11308,24 @@ body {
 .team-member h5 {
   margin-bottom: 0;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  }
+
+.card img {
+  max-width: 100px;
+   margin-bottom: 20px; 
+}
