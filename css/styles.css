@@ -8269,6 +8269,8 @@ textarea.form-control-lg {
 
 .text-size-auditBeyond {
   font-size: 20px; /* You can set this to any size you prefer */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
 }
 
 .text-reset {
@@ -11312,9 +11314,9 @@ body {
 .containing {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 20px;
   max-width: 1200px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .carding {
